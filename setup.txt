@@ -1,17 +1,25 @@
-Invoice Maker v 1.0
+Invoice Maker v1.0
 -------------------
+
+This program allows a Yahoo Store owner to create a invoice/packing slip that includes a company logo, message for the 
+customer and will display a detailed price breakdown of each order.  It does require some computer knowledge such as how 
+to transfer files between computer systems. 
 
 INTALLATING:
 
-1. Upload index.html and invoice.php to your web server.  You can rename index.html to invoice.html or some other file name if this file already exist on your server.
+1. Upload INDEX.HTML and INVOICE.PHP to your web server.  You can rename INDEX.HTML to INVOICE.PHP or some other file 
+name if this file already exist on your server.
 
 RUNNING:
 
-This program needs items.csv, product.csv and order.csv to work.  
+This program needs ITEMS.CSV, PRODUCTS.CSV and ORDERS.CSV to work.  
 
-1.  Go into your Yahoo Store.
-2.  Click the Orders link under process.
-3.  For the export button select a range of orders that you want to select
-4.  You will be presneted with a CSV file list.  Please download the items.csv, product.csv and order.csv.  These files will have different name, but don't worry about that the program knowns how to name them
-5.  Once you have those files saved in a known director, you will then run INDEX.HTML on your web server.  
-6.  From here you can upload the three CSV files along with a logo and a message.
+1.  Go into your Yahoo Store Manager.
+2.  Click the Orders link under Process category.
+3.  Next to the export button select a range of orders that you want to use.
+4.  You will be presented with a list of CSV files.  Please download the ITEMS.CSV, PRODUCTS.CSV and ORDERS.CSV.  
+(These files will have different name, but don't worry about that the program knowns how to name them.)
+5.  Once you have those files saved in a known location on your computer, you will then run INDEX.HTML on your web server.  
+6.  From here you can upload the three CSV files along with an image logo and a message for your customer.
+7.  Click the Submit Button and your invoice will be displayed.
+8.  To print click the Make Ready Print button and use the print function from within your browser.
