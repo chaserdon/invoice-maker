@@ -1,0 +1,110 @@
+<html>
+<head>
+<style type="text/css">
+#container
+{
+   display: table;
+}
+
+#tablerow
+{
+   display: table-row;
+}
+
+#tablecell
+{
+   display: table-cell;
+   text-align:left;
+}
+
+#submitbutton
+{
+   text-align: center;
+}
+
+#head
+{
+   font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+<div id="tablerow">
+<div id="tablecell">
+<h1> Custom Invoice Creator </h1>
+</div>
+</div>
+<div id="tablerow">
+<div id="tablecell">
+Creates a printable invoice using data from items.csv, orders.csv and product.csv file.  
+Upload your logo to appear at top center and your company's message to appear at bottom center.
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div id="container">
+<div id="tablerow">
+<div id="tablecell">
+<span id="head">
+Requirements: 
+</span>
+</div>
+</div>
+<div id="tablecell">
+<div id="tablerow">
+<div id="tablecell">
+1. tmp folder must exist in root directory.  
+</div>
+</div>
+<div id="tablerow">
+<div id="tablecell">
+2. items.csv file: for item codes and prices
+</div>
+</div>
+<div id="tablerow">
+<div id="tablecell">
+3  order.csv file: for billing address and shipping type
+</div>
+</div>
+<div id="tablerow">
+<div id="tablecell">
+4. product.csv file: for description of items
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<center>
+<div id="container">
+<div id="tablerow">
+<div id="tablecell">
+<form action="invoice.php" method="post"
+enctype="multipart/form-data">
+<input type="hidden" name="uploadform" value="IsUploading" />
+<label for="file">Logo:</label>
+<input type="file" name="file" id="file"><br>
+<label for="items">Items file:</label>
+<input type="file" name="ItemsFile" id="file"><br>
+<label for="items">Orders file:</label>
+<input type="file" name="OrdersFile" id="file"><br>
+<label for="items">Products file:</label>
+<input type="file" name="ProductsFile" id="file"><br>
+<label for="items">Message:</label>
+<input type="textbox" name="Signaturetext" id="signature"><br>
+<div id="submitbutton">
+<input type="submit" name="submit" value="Submit">
+</div>
+</form>
+</div>
+</div>
+</div>
+</center>
+</body>
+</html>
