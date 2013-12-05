@@ -1,17 +1,14 @@
 Invoice Maker v1.0
--------------------
+------------------
 
-This program allows a Yahoo Store owner to create a invoice/packing slip that includes a company logo, message for the 
-customer and will display a detailed price breakdown of each order.  It does require some computer knowledge such as how 
-to transfer files between computer systems. 
+This program allows a Yahoo Store owner to create a invoice/packing slip that includes a company logo, message for the customer and will display a detailed price breakdown of each order.  It does require some computer knowledge such as how to transfer files between computer systems. 
 
-INTALLATING:
 
-1. Upload INDEX.HTML and INVOICE.PHP to your web server.  You can rename INDEX.HTML to INVOICE.PHP or some other file 
-name if this file already exist on your server.
+INTALLING:
+1. Upload INDEX.HTML and INVOICE.PHP to your web server.  You can rename INDEX.HTML to INVOICE.HTML or some other file name if this file already exist on your server.
+
 
 RUNNING:
-
 This program needs ITEMS.CSV, PRODUCTS.CSV and ORDERS.CSV to work.  
 
 1.  Go into your Yahoo Store Manager.
